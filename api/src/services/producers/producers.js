@@ -8,6 +8,9 @@ export const producers = async () => {
       totalVotes: parseFloat(producer.total_votes),
       unpaidBlocks: producer.unpaid_blocks,
       lastClaimTime: producer.last_claim_time,
+      scaledVotes:
+        parseFloat(producer.total_votes) /
+        parseFloat(res.total_producer_vote_weight),
     }
   })
 

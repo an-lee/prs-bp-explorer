@@ -1,7 +1,7 @@
-import { Link, routes } from '@redwoodjs/router';
-import ProducerCell from 'src/components/ProducerCell';
+import { Link, routes } from '@redwoodjs/router'
+import ProducerCell from 'src/components/ProducerCell'
 
-const ProducerPage = ({name}) => {
+const ProducerPage = ({ name }) => {
   return (
     <>
       <ProducerCell name={name} />

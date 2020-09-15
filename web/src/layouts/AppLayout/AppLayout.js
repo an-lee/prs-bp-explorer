@@ -8,7 +8,7 @@ const AppLayout = ({ children }) => {
         <Header style={{ background: '#7dbcea', color: '#fff' }}>
           PressOne Block Producers
         </Header>
-        <Content>{children}</Content>
+        <Content style={{ padding: '1rem' }}>{children}</Content>
         <Footer style={{ textAlign: 'center' }}>
           Baizhiheizi ©2020 Created by an-lee
         </Footer>

@@ -11,6 +11,7 @@ export const schema = gql`
     voters: [String!]
     staked: Float
     lastVoteWeight: Float
+    scaledVotes: Float
   }
 
   type Query {
