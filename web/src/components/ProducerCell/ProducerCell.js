@@ -34,15 +34,14 @@ export const Failure = ({ error }) => <div>Error: {error.message}</div>
 
 export const Success = ({ producer, producers }) => {
   const index = producers.findIndex((bp) => bp.name === producer.name)
-  const rank = index + 1
   producer = Object.assign(producer, producers[index])
   return (
     <>
       <PageHeader title={producer.name} onBack={() => window.history.back()} />
       <Descriptions size="small" column={{ xs: 1, sm: 2 }}>
         <Descriptions.Item label="Ranking">
-          <Tag color={rank < 21 ? 'green' : ''}>
-            #{rank + 1} {rank < 21 ? 'producing' : ''}
+          <Tag color={index < 21 ? 'green' : ''}>
+            #{index + 1} {index < 21 ? 'producing' : ''}
           </Tag>
         </Descriptions.Item>
         <Descriptions.Item label="Last vote weight">
