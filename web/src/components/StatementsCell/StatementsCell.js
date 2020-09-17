@@ -83,7 +83,7 @@ export const Success = ({ statements }) => {
       render: (memo) => (memo ? memo : '-'),
     },
     {
-      title: 'Snapshop',
+      title: 'Snapshot',
       dataIndex: 'mixinSnapshotId',
       key: 'mixinSnapshotId',
       render: (_, record) =>
