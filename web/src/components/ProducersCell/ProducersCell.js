@@ -1,5 +1,5 @@
 import { Link, routes } from '@redwoodjs/router'
-import { Card, List, Tag } from 'antd'
+import { Card, List, Spin, Tag } from 'antd'
 import moment from 'moment'
 
 export const QUERY = gql`
@@ -13,7 +13,11 @@ export const QUERY = gql`
   }
 `
 
-export const Loading = () => <div>Loading...</div>
+export const Loading = () => (
+  <div style={{ textAlign: 'center', margin: 20 }}>
+    <Spin />
+  </div>
+)
 
 export const Empty = () => <div>Empty</div>
 
@@ -25,7 +29,7 @@ export const Success = ({ producers }) => {
       grid={{ gutter: 16, xs: 1, sm: 2, md: 4, column: 4 }}
       dataSource={producers}
       renderItem={(producer, index) => (
-        <List.Item>
+        <List.Item key={producer.name}>
           <Link to={routes.producer({ name: producer.name })}>
             <Card
               hoverable

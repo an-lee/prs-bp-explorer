@@ -22,7 +22,9 @@ export const producer = async ({ name }) => {
   return {
     name: res.account_name,
     headBlockNum: res.head_block_num,
+    headBlockTime: res.head_block_time,
     staked: parseFloat(res.voter_info.staked) / 10000.0,
+    balance: parseFloat(res.core_liquid_balance.split(' ')[0]),
     lastVoteWeight: parseFloat(res.voter_info.last_vote_weight),
     voters: res.voter_info.producers,
     createdAt: res.created,
