@@ -13042,10 +13042,10 @@ prr@~1.0.1:
   resolved "https://registry.yarnpkg.com/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
 
-prs-atm@^2.0.40:
-  version "2.0.40"
-  resolved "https://registry.npm.taobao.org/prs-atm/download/prs-atm-2.0.40.tgz#89956d9f31347eb67a819528de6805f2b46d3ce9"
-  integrity sha1-iZVtnzE0frZ6gZUo3mgF8rRtPOk=
+prs-atm@^2.0.41:
+  version "2.0.41"
+  resolved "https://registry.yarnpkg.com/prs-atm/-/prs-atm-2.0.41.tgz#09a1b27fd044e939fd636585ff4fcea90ed49f53"
+  integrity sha512-SwIL6joTd5oOERLNqWM2Bk9ZTdBr4sVQ3VeHikV8zYy1gCOXOnLDCcmFM0AWLaJbQesrN01TS4XqVmv6pthnZQ==
   dependencies:
     blessed "^0.1.81"
     blessed-contrib "^4.8.20"
@@ -13054,7 +13054,7 @@ prs-atm@^2.0.40:
     keythereum-pure-js "^1.1.9"
     prs-utility "^0.1.0"
     readline-sync "^1.4.10"
-    sushitrain "^1989.6.128"
+    sushitrain "^1989.6.129"
     table "^5.4.6"
     utilitas "^1989.6.65"
     uuid "^3.4.0"
@@ -15323,10 +15323,10 @@ supports-hyperlinks@^2.0.0, supports-hyperlinks@^2.1.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-sushitrain@^1989.6.128:
-  version "1989.6.128"
-  resolved "https://registry.npm.taobao.org/sushitrain/download/sushitrain-1989.6.128.tgz#b150a59888c30af630898a6ca0bea63a582122da"
-  integrity sha1-sVClmIjDCvYwiYpsoL6mOlghIto=
+sushitrain@^1989.6.129:
+  version "1989.6.130"
+  resolved "https://registry.yarnpkg.com/sushitrain/-/sushitrain-1989.6.130.tgz#beb2c744fc769ce5c7ac75aaa707f67e57bebbc0"
+  integrity sha512-BDvabEY5N24n65QW7kyn9vOekZUy2ab4mgNQCuhxpANr9lHISgvUuxWHOAsQ23ZMcxeUH/OyJWE9Rt+D1ENOdw==
   dependencies:
     eos-name-verify "^1.0.1"
     eosjs "^20.0.3"
