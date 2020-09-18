@@ -34,7 +34,7 @@ export const Failure = ({ error }) => <div>Error: {error.message}</div>
 
 export const Success = ({ producer, producers }) => {
   const index = producers.findIndex((bp) => bp.name === producer.name)
-  producer = Object.assign(producer, producers[index])
+  producer = Object.assign({}, producer, producers[index])
   return (
     <>
       <PageHeader title={producer.name} onBack={() => window.history.back()} />
