@@ -12815,10 +12815,10 @@ prr@~1.0.1:
   resolved "https://registry.yarnpkg.com/prr/-/prr-1.0.1.tgz#d3fc114ba06995a45ec6893f484ceb1d78f5f476"
   integrity sha1-0/wRS6BplaRexok/SEzrHXj19HY=
 
-prs-atm@^2.0.41:
-  version "2.0.41"
-  resolved "https://registry.yarnpkg.com/prs-atm/-/prs-atm-2.0.41.tgz#09a1b27fd044e939fd636585ff4fcea90ed49f53"
-  integrity sha512-SwIL6joTd5oOERLNqWM2Bk9ZTdBr4sVQ3VeHikV8zYy1gCOXOnLDCcmFM0AWLaJbQesrN01TS4XqVmv6pthnZQ==
+prs-atm@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/prs-atm/-/prs-atm-2.1.3.tgz#5c2aec71c867ed04ebd48a7116dc57a24d40ec6c"
+  integrity sha512-jQKyCVVViBr7FQcD6m6yEU3hDjSWHCFrc0mkI9tUVLLkBfMeiZI7aVjVXFn1aKI+De0p6CwDqtiO+PZUzt5yJQ==
   dependencies:
     blessed "^0.1.81"
     blessed-contrib "^4.8.20"
@@ -12827,9 +12827,9 @@ prs-atm@^2.0.41:
     keythereum-pure-js "^1.1.9"
     prs-utility "^0.1.0"
     readline-sync "^1.4.10"
-    sushitrain "^1989.6.129"
+    sushitrain "^1989.7.3"
     table "^5.4.6"
-    utilitas "^1989.6.65"
+    utilitas "^1989.6.66"
     uuid "^3.4.0"
     yargs "^15.4.1"
 
@@ -15066,10 +15066,10 @@ supports-hyperlinks@^2.0.0, supports-hyperlinks@^2.1.0:
     has-flag "^4.0.0"
     supports-color "^7.0.0"
 
-sushitrain@^1989.6.129:
-  version "1989.6.130"
-  resolved "https://registry.yarnpkg.com/sushitrain/-/sushitrain-1989.6.130.tgz#beb2c744fc769ce5c7ac75aaa707f67e57bebbc0"
-  integrity sha512-BDvabEY5N24n65QW7kyn9vOekZUy2ab4mgNQCuhxpANr9lHISgvUuxWHOAsQ23ZMcxeUH/OyJWE9Rt+D1ENOdw==
+sushitrain@^1989.7.3:
+  version "1989.7.3"
+  resolved "https://registry.yarnpkg.com/sushitrain/-/sushitrain-1989.7.3.tgz#f0fc60841f878dd6fbcfd7a5065384aefd4cd3e6"
+  integrity sha512-nB311rmmYi2W1UNTwpWyAOjF6h1X47bY/Rr1j31jMilWSDzvKQkwKi2+kuqhcfflnEO7laOPLRijR91mWeH44g==
   dependencies:
     eos-name-verify "^1.0.1"
     eosjs "^20.0.3"
@@ -15077,7 +15077,7 @@ sushitrain@^1989.6.129:
     mathjs "^7.2.0"
     node-fetch "^2.6.1"
     pg "^8.3.3"
-    utilitas "^1989.6.65"
+    utilitas "^1989.6.66"
     ws "^7.3.1"
 
 svg-parser@^2.0.0:
@@ -15884,10 +15884,10 @@ utila@^0.4.0, utila@~0.4:
   resolved "https://registry.yarnpkg.com/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
   integrity sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
 
-utilitas@^1989.6.65:
-  version "1989.6.65"
-  resolved "https://registry.npm.taobao.org/utilitas/download/utilitas-1989.6.65.tgz#679f068ffbadaa69b842fd8dc1f4baba5177df56"
-  integrity sha1-Z58Gj/utqmm4Qv2NwfS6ulF331Y=
+utilitas@^1989.6.66:
+  version "1989.6.66"
+  resolved "https://registry.yarnpkg.com/utilitas/-/utilitas-1989.6.66.tgz#9a8fb4455c358e6d2a9c88122a518eb9e5b886c6"
+  integrity sha512-Do0ZXICHNQDJWu+PWbloLeFj2RdJvsevLIh2Kt8OlWbt6uMGOOx6kAiJ2KcHn2Q6Brq1LxgdL0ZJevpvKAE+aw==
   dependencies:
     ping "^0.2.3"
     uuid "^8.3.0"
