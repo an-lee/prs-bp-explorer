@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@redwoodjs/api": "^0.19.0",
+    "@redwoodjs/api": "^0.19.2",
     "prs-atm": "^2.1.3"
   }
 }
