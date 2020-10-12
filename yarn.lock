@@ -2168,10 +2168,10 @@
     kill-port "^1.6.1"
     toml "^3.0.0"
 
-"@redwoodjs/router@^0.19.2":
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/@redwoodjs/router/download/@redwoodjs/router-0.19.2.tgz#ab256fce7fce26ea2311a96ca839f25a230bd0be"
-  integrity sha1-qyVvzn/OJuojEalsqDnyWiML0L4=
+"@redwoodjs/router@^0.19.3":
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.19.3.tgz#2907573eaa2f2c2928c4976f40c1cf93958967fe"
+  integrity sha512-dXi/Mr3EgR6Z6NpNWOM/lLkhbL5AwbZYbVS0ngkqZ/Red7p1nU673U4rhu9sgkjYUWe1va9zcFOZtjdARXCAbg==
   dependencies:
     core-js "3.6.5"
 
