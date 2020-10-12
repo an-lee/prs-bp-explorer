@@ -2001,13 +2001,13 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@redwoodjs/api@^0.19.2":
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/@redwoodjs/api/download/@redwoodjs/api-0.19.2.tgz#e5e54c3a091b9214427d7b58febc798c718066a6"
-  integrity sha1-5eVMOgkbkhRCfXtY/rx5jHGAZqY=
+"@redwoodjs/api@^0.19.3":
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/api/-/api-0.19.3.tgz#0d213ba8caa2b0718373f7946d5cbd617d8562b0"
+  integrity sha512-whNmCmSRq27IX3GHLvMIvgFFi+S/QMs3+19gvDkrMp9oSFeqKwEDWlT/pnkP2DLCYW/0pCy5deKgXqAP8sPAOQ==
   dependencies:
     "@prisma/client" "2.6.2"
-    "@redwoodjs/internal" "^0.19.2"
+    "@redwoodjs/internal" "^0.19.3"
     apollo-server-lambda "2.17.0"
     core-js "3.6.5"
     graphql "^15.3.0"
@@ -2158,10 +2158,10 @@
     pascalcase "1.0.0"
     react-hook-form "^6.5.3"
 
-"@redwoodjs/internal@^0.19.2":
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/@redwoodjs/internal/download/@redwoodjs/internal-0.19.2.tgz#2bf2412a4cbb804c45546732bc1e75eb0fe1b9c7"
-  integrity sha1-K/JBKky7gExFVGcyvB516w/hucc=
+"@redwoodjs/internal@^0.19.2", "@redwoodjs/internal@^0.19.3":
+  version "0.19.3"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/internal/-/internal-0.19.3.tgz#7831a5926449f7dc61be43436d9537d0f5ad6859"
+  integrity sha512-pJHTM3HUqUnMThr7OdVOVnKVx7nBKcoGbKyfqjnWhaCb+HPmEpVZhLLWC2NdyzwAJDFUTC/p1VOekQLy7QUQLQ==
   dependencies:
     deepmerge "^4.2.2"
     findup-sync "^4.0.0"
