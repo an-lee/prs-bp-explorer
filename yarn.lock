@@ -2168,12 +2168,13 @@
     kill-port "^1.6.1"
     toml "^3.0.0"
 
-"@redwoodjs/router@^0.19.2":
-  version "0.19.2"
-  resolved "https://registry.npm.taobao.org/@redwoodjs/router/download/@redwoodjs/router-0.19.2.tgz#ab256fce7fce26ea2311a96ca839f25a230bd0be"
-  integrity sha1-qyVvzn/OJuojEalsqDnyWiML0L4=
+"@redwoodjs/router@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/router/-/router-0.20.0.tgz#399f976e7842050a6802211cffdb45f5282c9ba2"
+  integrity sha512-cOXLh2djzO/jplYn+pwtVIhSGaI5A5w3Bnev4xrdumRqWHnLNKXSInAuejT0j8DxPVxkCCPq1tIozz7GRlSvRg==
   dependencies:
     core-js "3.6.5"
+    lodash.isequal "^4.5.0"
 
 "@redwoodjs/structure@^0.19.2":
   version "0.19.2"
@@ -10742,6 +10743,11 @@ lodash.isboolean@^3.0.3:
   version "3.0.3"
   resolved "https://registry.npm.taobao.org/lodash.isboolean/download/lodash.isboolean-3.0.3.tgz#6c2e171db2a257cd96802fd43b01b20d5f5870f6"
   integrity sha1-bC4XHbKiV82WgC/UOwGyDV9YcPY=
+
+lodash.isequal@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
+  integrity sha1-QVxEePK8wwEgwizhDtMib30+GOA=
 
 lodash.isinteger@^4.0.4:
   version "4.0.4"
