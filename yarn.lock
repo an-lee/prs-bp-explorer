@@ -59,10 +59,10 @@
     prettysize "^2.0.0"
     sleep-promise "^8.0.1"
 
-"@apollo/client@^3.0.2", "@apollo/client@^3.1.5":
-  version "3.2.2"
-  resolved "https://registry.npm.taobao.org/@apollo/client/download/@apollo/client-3.2.2.tgz#fe5cad4d53373979f13a925e9da02d8743e798a5"
-  integrity sha1-/lytTVM3OXnxOpJenaAth0PnmKU=
+"@apollo/client@^3.0.2", "@apollo/client@^3.1.5", "@apollo/client@^3.2.4":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@apollo/client/-/client-3.2.5.tgz#24e0a6faa1d231ab44807af237c6227410c75c4d"
+  integrity sha512-zpruxnFMz6K94gs2pqc3sidzFDbQpKT5D6P/J/I9s8ekHZ5eczgnRp6pqXC86Bh7+44j/btpmOT0kwiboyqTnA==
   dependencies:
     "@graphql-typed-document-node/core" "^3.0.0"
     "@types/zen-observable" "^0.8.0"
@@ -71,10 +71,9 @@
     fast-json-stable-stringify "^2.0.0"
     graphql-tag "^2.11.0"
     hoist-non-react-statics "^3.3.2"
-    optimism "^0.12.1"
+    optimism "^0.13.0"
     prop-types "^15.7.2"
     symbol-observable "^2.0.0"
-    terser "^5.2.0"
     ts-invariant "^0.4.4"
     tslib "^1.10.0"
     zen-observable "^0.8.14"
@@ -2224,6 +2223,17 @@
     graphql "^15.3.0"
     proptypes "^1.1.0"
 
+"@redwoodjs/web@^0.20.0":
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/@redwoodjs/web/-/web-0.20.0.tgz#cca19f3b98340273ff09d218a810666b2b57de19"
+  integrity sha512-iUu3kwr5ch85I9CB5me19rL5wqysmong9Yr2zPoqgc4egbyNdQd8dgeggK7eUCEq4aWdgS1gz6g2Tuoi5hFBCQ==
+  dependencies:
+    "@apollo/client" "^3.2.4"
+    "@types/react" "16.9.53"
+    core-js "3.6.5"
+    graphql "^15.3.0"
+    proptypes "^1.1.0"
+
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.1"
   resolved "https://registry.npm.taobao.org/@samverschueren/stream-to-observable/download/@samverschueren/stream-to-observable-0.3.1.tgz#a21117b19ee9be70c379ec1877537ef2e1c63301"
@@ -3099,10 +3109,10 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*":
-  version "16.9.51"
-  resolved "https://registry.npm.taobao.org/@types/react/download/@types/react-16.9.51.tgz#f8aa51ffa9996f1387f63686696d9b59713d2b60"
-  integrity sha1-+KpR/6mZbxOH9jaGaW2bWXE9K2A=
+"@types/react@*", "@types/react@16.9.53":
+  version "16.9.53"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.53.tgz#40cd4f8b8d6b9528aedd1fff8fcffe7a112a3d23"
+  integrity sha512-4nW60Sd4L7+WMXH1D6jCdVftuW7j4Za6zdp6tJ33Rqv0nk1ZAmQKML9ZLD4H0dehA3FZxXR/GM8gXplf82oNGw==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -11931,10 +11941,10 @@ opn@^5.5.0:
   dependencies:
     is-wsl "^1.1.0"
 
-optimism@^0.12.1:
-  version "0.12.2"
-  resolved "https://registry.npm.taobao.org/optimism/download/optimism-0.12.2.tgz?cache=0&sync_timestamp=1600968780670&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Foptimism%2Fdownload%2Foptimism-0.12.2.tgz#de9dc3d2c914d7b34e08957a768967c0605beda9"
-  integrity sha1-3p3D0skU17NOCJV6dolnwGBb7ak=
+optimism@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/optimism/-/optimism-0.13.0.tgz#c08904e1439a0eb9e7f86183dafa06cc715ff351"
+  integrity sha512-6JAh3dH+YUE4QUdsgUw8nUQyrNeBKfAEKOHMlLkQ168KhIYFIxzPsHakWrRXDnTO+x61RJrS3/2uEt6W0xlocA==
   dependencies:
     "@wry/context" "^0.5.2"
 
@@ -14696,7 +14706,7 @@ source-map-resolve@^0.6.0:
     atob "^2.1.2"
     decode-uri-component "^0.2.0"
 
-source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12, source-map-support@~0.5.19:
+source-map-support@^0.5.16, source-map-support@^0.5.6, source-map-support@~0.5.12:
   version "0.5.19"
   resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.19.tgz?cache=0&sync_timestamp=1589682814927&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map-support%2Fdownload%2Fsource-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
   integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
@@ -14719,7 +14729,7 @@ source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.0, source-map@~0.6.1:
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.6.1.tgz?cache=0&sync_timestamp=1589682764497&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha1-dHIq8y6WFOnCh6jQu95IteLxomM=
 
-source-map@^0.7.3, source-map@~0.7.2:
+source-map@^0.7.3:
   version "0.7.3"
   resolved "https://registry.npm.taobao.org/source-map/download/source-map-0.7.3.tgz?cache=0&sync_timestamp=1589682764497&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fsource-map%2Fdownload%2Fsource-map-0.7.3.tgz#5302f8169031735226544092e64981f751750383"
   integrity sha1-UwL4FpAxc1ImVECS5kmB91F1A4M=
@@ -15382,15 +15392,6 @@ terser@^4.1.2, terser@^4.6.12, terser@^4.6.3:
     commander "^2.20.0"
     source-map "~0.6.1"
     source-map-support "~0.5.12"
-
-terser@^5.2.0:
-  version "5.3.4"
-  resolved "https://registry.npm.taobao.org/terser/download/terser-5.3.4.tgz?cache=0&sync_timestamp=1601639556443&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterser%2Fdownload%2Fterser-5.3.4.tgz#e510e05f86e0bd87f01835c3238839193f77a60c"
-  integrity sha1-5RDgX4bgvYfwGDXDI4g5GT93pgw=
-  dependencies:
-    commander "^2.20.0"
-    source-map "~0.7.2"
-    source-map-support "~0.5.19"
 
 test-exclude@^6.0.0:
   version "6.0.0"
