@@ -6,7 +6,7 @@
     "defaults"
   ],
   "dependencies": {
-    "@redwoodjs/forms": "^0.19.2",
+    "@redwoodjs/forms": "^0.20.0",
     "@redwoodjs/router": "^0.19.2",
     "@redwoodjs/web": "^0.19.2",
     "antd": "^4.6.5",
